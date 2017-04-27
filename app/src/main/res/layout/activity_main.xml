@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/defaultmargin_padding"
+    tools:context="com.example.sanya.soundsense.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/wrapwrap"
+            android:adjustViewBounds="true"
+            android:src="@drawable/soundsenselogo" />
+
+        <TextView
+            style="@style/whatmood"
+            android:text="@string/whatmood" />
+
+        <LinearLayout
+            style="@style/wrapwrap"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/defaultmargin_padding"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/musicfortheheart"
+                style="@style/icons"
+                android:src="@mipmap/heart" />
+
+            <ImageView
+                android:id="@+id/musicforthemind"
+                style="@style/icons"
+                android:src="@mipmap/mind" />
+
+            <ImageView
+                android:id="@+id/random"
+                style="@style/icons"
+                android:src="@mipmap/random" />
+
+            <ImageView
+                android:id="@+id/playlist_icon"
+                style="@style/icons"
+                android:src="@mipmap/list" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/explanation"
+            android:text="@string/mainexplanation" />
+    </LinearLayout>
+</ScrollView>

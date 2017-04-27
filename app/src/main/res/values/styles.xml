@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="wrapwrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="whatmood" parent="wrapwrap">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/defaultmargin_padding</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="explanation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/descriptioncard</item>
+        <item name="android:padding">@dimen/innerpadding</item>
+        <item name="android:elevation">@dimen/elevation</item>
+        <item name="android:layout_marginTop">@dimen/defaultmargin_padding</item>
+    </style>
+
+    <style name="icons" parent="wrapwrap">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginRight">@dimen/defaultmargin_padding</item>
+    </style>
+</resources>

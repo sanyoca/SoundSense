@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/defaultmargin_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/hearticon"
+            style="@style/icons"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/defaultmargin_padding"
+            android:clickable="true"
+            android:src="@mipmap/heart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/defaultmargin_padding">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/sadface" />
+
+            <SeekBar
+                android:id="@+id/heart_ratebar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:max="5"
+                android:paddingTop="@dimen/defaultmargin_padding" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/happyface" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/heartracks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/defaultmargin_padding" />
+
+        <TextView
+            style="@style/explanation"
+            android:text="@string/heartexplanation" />
+
+    </LinearLayout>
+</ScrollView>

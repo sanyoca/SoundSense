@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultmargin_padding">16dp</dimen>
+    <dimen name="innerpadding">3dp</dimen>
+    <dimen name="elevation">8dp</dimen>
+</resources>
